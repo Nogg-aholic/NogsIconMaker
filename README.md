@@ -7,7 +7,7 @@
 2. Open up the Editor and use a Content Browser to navigate to the "NogsIconMaker Content" plugin content folder.
 3. Open the IconGameLevel level from the content browser.
 	* If the Editor crashes, go to Edit > Project Settings... and then pick "Maps & Modes" from the Project subheading. Under "Default Maps", set the "Editor Startup Map" and "Game Default Map" to the IconGameLevel level from before.
-4. Use the World Outliner window to select the IconCaptureActor present in the level. In the "Details" window, set the propert "Desc" under the Default caregory to the Descriptor you want to make an icon for. 
+4. Use the World Outliner window to select the IconCaptureActor present in the level. In the "Details" window, set the property "Desc" under the Default category to the Descriptor you want to make an icon for. 
 5. Click the "Load Descriptor" button, which is above the Desc field, to load the item into the scene. You should see the item's mesh appear inside the Level viewport.
 
 All of the settings related to the icon capture are loaded from the Descriptor you selected, and then the values are set on the IconCaptureActor. Adjust your settings until you are happy.
